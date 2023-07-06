@@ -2,25 +2,64 @@
 <html>
     <head>
         <title>Abhishek's Virtual Home</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style.css">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
     </head>
     <body style="background-color: black;">
-        <div id="line-1"></div>
-    <div id="line-2"></div>
-    <div id="line-3"></div>
-    <div id="line-4"></div>
-        <header>
-            <nav>
-                <ul class="nav_links">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="../Aboutme/index.html">About Me</a></li>
-                    <li><a href="index.html">Portfolio</a></li>
-                    <li><a href="../Contact/index.html">Get in touch</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <h1 style="color: white; margin: auto; padding-left: 43%; padding-top: 20%;">Coming Soon</h1>
+       
+        <div id="main-content">
+            <div id="section-1">
+                <header >
+                    <nav>
+                        <ul class="nav_links">
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../Aboutme/index.html">About Me</a></li>
+                            <li><a href="../Portfolio/index.html">Portfolio</a></li>
+                            <li><a href="../Contact/index.html">Get in touch</a></li>
+                        </ul>
+                    </nav>
+                </header>
+            </div>
+            <div id="section-2">
+                <h1>Portfolio</h1>
+                <p class="des">Follow below to see some of my work and to connect with me on.</p>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div class="card h-80">
+                        <img src="./assets/github.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">GitHub</h5>
+                          <p class="card-text">Please refer my <a href="https://github.com/Abhishekguragol">GitHub</a> for finding my codebases that I have open sourced</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-80">
+                        <img src="./assets/linkedin.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Linkedin</h5>
+                          <p class="card-text"> Let's connect on <a href="https://www.linkedin.com/in/abhishek-guragol/"> LinkedIn </a> for open opportunities and you can also find more details about my work experiences, projects & certfifcations.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card h-80">
+                        <img src="./assets/google-scholar.jpeg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Google Scholar</h5>
+                          <p class="card-text">Checkout my <a href="https://scholar.google.com/citations?user=Ubr0a6sAAAAJ&hl=en"> Google Scholar </a>  profile for links to research publications I have been a part of.</p>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="res-link">
+                    <a href="./assets/Resume.pdf" > <button>Download my resume</button> </a>
+                  </div>
+                  
+            </div>
 
     </body>
 </html>

@@ -4,53 +4,15 @@
     padding: 0;
 }
 
-#line-1 {
-    position: absolute;
-    top: 0.5em;
-    left: 0.5em;
-    width: 5em;
-    height: 0.3vw;
-    background: #ff304f;
-    z-index: 2;
-    opacity: 0.8;
+#main-content {
+    height: 100vh;
 }
-#line-2 {
-    position: absolute;
-    top: 0.5em;
-    left: 0.5em;
-    height: 5em;
-    width: 0.3vw;
-    background: #ff304f;
-    z-index: 2;
-    opacity: 0.8;
-}
-#line-3 {
-    position: absolute;
-    bottom: 0.5em;
-    right: 0.5em;
-    height: 5em;
-    width: 0.3vw;
-    background: #ff304f;
-    z-index: 2;
-    opacity: 0.8;
-}
-#line-4 {
-    position: absolute;
-    bottom: 0.5em;
-    right: 0.5em;
-    width: 5em;
-    height: 0.3vw;
-    background: #ff304f;
-    z-index: 2;
-    opacity: 0.8;
-}
-
 header {
     display: flex;
   justify-content: flex-end;
   padding: 30px 10%;
   position: fixed;
-  background-color: black;
+  /* background-color: black; */
   width: 100%;
 }
 
@@ -77,45 +39,47 @@ header {
     color: rgb(35, 203, 147);
 }
 
-/* Abput me */
+#section-1 { height: 20%; }
+#section-2 { height: 80%; }
+#section-2 h1 { color: rgb(35, 203, 147);
+    text-align: center;
+    /* padding-bottom: 10%; */
+}
 
-.btn, #wExp-btn, #Exp-btn {
-    background-color: rgb(35, 203, 147); /* Green */
+#section-2 p,h5 {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+#section-2 .des {
+    color: white;
+}
+
+#section-2 img {
+    height: 200px;
+    width: 300px;
+    align-self: center;
+}
+
+#section-2 a {
+    color: rgb(35, 203, 147);
+    text-decoration: none;
+}
+
+#section-2 .res-link {
+    padding-left: 45%;
+    padding-top: 40px;
+}
+
+#section-2 .res-link button {
+    background-color: rgb(35, 203, 147);
     border: none;
+    border-radius: 10px;
     color: white;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    
 }
-
-#AboutMe {
-    display: flex;
-    justify-content: space-around;
-    min-height: 500px;
-    padding: 10%;
-  }
-  
-  #AboutMe #working-img {
-    width: 50%;
-    height: 50%;
-  }
-  
-  #AboutMe #working-img img {
-    width: 50%;
-    height: 50%;
-    /* padding-left: 200px; */
-    /* border-radius: 50%; */
-  }
-  
-  #AboutMe #HireText {
-    width: 45%;
-    /* padding-right: 200px; */
-    color: white;
-  }
-  
-  #AboutMe #HireText #HTitile {
-    font-size: x-large;
-    color: rgb(35, 203, 147);
-  }
