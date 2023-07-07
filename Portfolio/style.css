@@ -67,7 +67,7 @@ header {
 }
 
 #section-2 .res-link {
-    padding-left: 45%;
+    padding-left: 40%;
     padding-top: 40px;
 }
 
@@ -82,4 +82,8 @@ header {
     display: inline-block;
     font-size: 16px;
     
+}
+
+.card {
+    width: 80%;
 }
